@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>啊啊啊</title>
+	</head>
+	<body>
+		<Script >
+		var conn = new ActiveXObject("ADODB.Connection");
+		conn.Open("Driver={SQL server};Server=.;DataBase=MySchool;UID=sa;Password=ok;");//打开数据库 DateBase是数据库名，UID是sql server登录名 password是登录密码
+		var rs = new ActiveXObject("ADODB.Recordset");
+		var sql="select * from Test";         //Test是表名
+		rs.open(sql, conn);
+		shtml = "<table align='center'>"; 
+		shtml +="<tr><td width='100' align='center'>疫情地区</td><th width='100' id='th1' onclick='SortTable(this)' class='as'>现有确诊<span class='tri_angle'></th><th width='100' id='th2' onclick='SortTable(this)' class='as'>累计确诊<span class='tri_angle'></th><th width='100' id='th3' onclick='SortTable(this)' class='as'>疑似<span class='tri_angle'></th><th width='100' id='th4' onclick='SortTable(this)' class='as'>死亡<span class='tri_angle'></th><th width='100' id='th5' onclick='SortTable(this)' class='as'>治愈<span class='tri_angle'></th></tr>"
+		while(!rs.EOF)
+		{
+		   shtml += "<tr><td width='100' name='td0' align='center'>" + rs("name") + "</td><td width='100' name='td1' align='center'>" + rs("nowConfirm") +"</td><td width='100' name='td2' align='center'>" + rs("confirm")+"</td><td width='100' name='td3' align='center'>" + rs("suspect")+"</td><td width='100' name='td4' align='center'>" + rs("dead") + "</td><td width='100' name='td5' align='center'>" + rs("heal")+"</td></tr>";      
+		   rs.moveNext; 
+		}
+		shtml += "</table>"; 
+		document.write(shtml);
+		rs.close();
+		rs = null;
+		conn.close();
+		conn = null;
+		</script>
+	</body>
+</html>

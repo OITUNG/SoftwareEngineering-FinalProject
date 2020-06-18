@@ -1,0 +1,2687 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>国外疫情</title>
+		<link type="text/css" rel="stylesheet" href="../css/style_map.css" />
+		<link type="text/css" rel="stylesheet" href="../css/style_table.css" />
+		<link type="text/css" rel="stylesheet" href="../css/style.css" />
+		<script src="../js/tab.js"></script>
+		<script src="../js/height.js"></script>
+	</head>
+	<body>
+		<div id="viewport">
+			<div id="main">
+				<div class="mola-window">
+					<div class="a">
+						<header class="head_background">
+							<h3 class="head_title">新型冠状病毒肺炎</h3>
+						</header>
+						<section class="sec">
+							<div class="head">
+								<p class="head_text">疫情实时大数据报告</p>
+							</div>
+							<div class="part_1_2">
+								<div class="part_1_2_qqyq">国外疫情</div>
+								<div class="data_spec">
+									<span>数据更新至2020年6月17日</span>
+								</div>
+							</div>
+							<form>
+								<table id="tb" width="100%" style="border-collapse:separate; border-spacing: 10px;">
+									<thead>
+										<tr>
+											<th>现有确诊</th>
+											<th>累计确诊</th>
+										</tr>
+										<tr>
+											<td class="xyqz_num">3949116</td>
+											<td class="ljqz_num">8158977</td>
+										</tr>
+										<tr>
+											<th>累计治愈</th>
+											<th>累计死亡</th>
+										</tr>
+										<tr>
+											<td class="ljzy_num">3765901</td>
+											<td class="ljsw_num">443960</td>
+										</tr>
+										<tr></tr>
+									</thead>
+								</table>
+
+							</form>
+							<div class="jump_botton">
+								<div class="jump_botton-title">
+									<a href="page1_whole.html"> <button> 全球疫情 </button> </a>
+									<a href="page2_home.html"> <button>  国内疫情  </button> </a>
+									<a href="page4_protext.html"> <button>  防疫知识  </button> </a>
+									<a href="page5_broadcast.html"> <button>  疫情资讯 </button> </a>
+								</div>
+							</div>
+							<div style="margin-top: 120px;">
+								<div>
+									<!--海外疫情地图-->
+									<head>
+										<meta charset="UTF-8">
+										<title>Awesome-pyecharts</title>
+										<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+										<script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+									</head>
+									<body>
+										<div class="dt_style">
+											<div id="06b3afaaeec343e1ae759ae09a57b775" class="chart-container" style="width:1200px; height:600px;"></div>
+											    <script>
+											        var chart_06b3afaaeec343e1ae759ae09a57b775 = echarts.init(
+											            document.getElementById('06b3afaaeec343e1ae759ae09a57b775'), 'white', {renderer: 'canvas'});
+											        var option_06b3afaaeec343e1ae759ae09a57b775 = {
+											    "animation": true,
+											    "animationThreshold": 2000,
+											    "animationDuration": 1000,
+											    "animationEasing": "cubicOut",
+											    "animationDelay": 0,
+											    "animationDurationUpdate": 300,
+											    "animationEasingUpdate": "cubicOut",
+											    "animationDelayUpdate": 0,
+											    "color": [
+											        "#c23531",
+											        "#2f4554",
+											        "#61a0a8",
+											        "#d48265",
+											        "#749f83",
+											        "#ca8622",
+											        "#bda29a",
+											        "#6e7074",
+											        "#546570",
+											        "#c4ccd3",
+											        "#f05b72",
+											        "#ef5b9c",
+											        "#f47920",
+											        "#905a3d",
+											        "#fab27b",
+											        "#2a5caa",
+											        "#444693",
+											        "#726930",
+											        "#b2d235",
+											        "#6d8346",
+											        "#ac6767",
+											        "#1d953f",
+											        "#6950a1",
+											        "#918597"
+											    ],
+											    "series": [
+											        {
+											            "type": "map",
+											            "name": "\u7d2f\u8ba1\u786e\u8bca",
+											            "label": {
+											                "show": false,
+											                "position": "top",
+											                "margin": 8
+											            },
+											            "mapType": "world",
+											            "data": [
+											                {
+											                    "name": "\u7f8e\u56fd",
+											                    "value": 2208400
+											                },
+											                {
+											                    "name": "\u5df4\u897f",
+											                    "value": 923189
+											                },
+											                {
+											                    "name": "\u4fc4\u7f57\u65af",
+											                    "value": 544725
+											                },
+											                {
+											                    "name": "\u5370\u5ea6",
+											                    "value": 343091
+											                },
+											                {
+											                    "name": "\u82f1\u56fd",
+											                    "value": 299600
+											                },
+											                {
+											                    "name": "\u897f\u73ed\u7259",
+											                    "value": 291408
+											                },
+											                {
+											                    "name": "\u610f\u5927\u5229",
+											                    "value": 237500
+											                },
+											                {
+											                    "name": "\u79d8\u9c81",
+											                    "value": 237156
+											                },
+											                {
+											                    "name": "\u6cd5\u56fd",
+											                    "value": 194347
+											                },
+											                {
+											                    "name": "\u4f0a\u6717",
+											                    "value": 192439
+											                },
+											                {
+											                    "name": "\u5fb7\u56fd",
+											                    "value": 188252
+											                },
+											                {
+											                    "name": "\u667a\u5229",
+											                    "value": 184449
+											                },
+											                {
+											                    "name": "\u571f\u8033\u5176",
+											                    "value": 181298
+											                },
+											                {
+											                    "name": "\u58a8\u897f\u54e5",
+											                    "value": 154863
+											                },
+											                {
+											                    "name": "\u5df4\u57fa\u65af\u5766",
+											                    "value": 148921
+											                },
+											                {
+											                    "name": "\u6c99\u7279\u963f\u62c9\u4f2f",
+											                    "value": 136315
+											                },
+											                {
+											                    "name": "\u52a0\u62ff\u5927",
+											                    "value": 101085
+											                },
+											                {
+											                    "name": "\u5b5f\u52a0\u62c9",
+											                    "value": 94481
+											                },
+											                {
+											                    "name": "\u5361\u5854\u5c14",
+											                    "value": 82077
+											                },
+											                {
+											                    "name": "\u5357\u975e",
+											                    "value": 76334
+											                },
+											                {
+											                    "name": "\u6bd4\u5229\u65f6",
+											                    "value": 60155
+											                },
+											                {
+											                    "name": "\u767d\u4fc4\u7f57\u65af",
+											                    "value": 55369
+											                },
+											                {
+											                    "name": "\u745e\u5178",
+											                    "value": 53323
+											                },
+											                {
+											                    "name": "\u54e5\u4f26\u6bd4\u4e9a",
+											                    "value": 53211
+											                },
+											                {
+											                    "name": "\u8377\u5170",
+											                    "value": 49295
+											                },
+											                {
+											                    "name": "\u5384\u74dc\u591a\u5c14",
+											                    "value": 47943
+											                },
+											                {
+											                    "name": "\u57c3\u53ca",
+											                    "value": 47856
+											                },
+											                {
+											                    "name": "\u963f\u8054\u914b",
+											                    "value": 42982
+											                },
+											                {
+											                    "name": "\u65b0\u52a0\u5761",
+											                    "value": 40969
+											                },
+											                {
+											                    "name": "\u5370\u5ea6\u5c3c\u897f\u4e9a",
+											                    "value": 40400
+											                },
+											                {
+											                    "name": "\u8461\u8404\u7259",
+											                    "value": 37336
+											                },
+											                {
+											                    "name": "\u79d1\u5a01\u7279",
+											                    "value": 36958
+											                },
+											                {
+											                    "name": "\u963f\u6839\u5ef7",
+											                    "value": 34159
+											                },
+											                {
+											                    "name": "\u4e4c\u514b\u5170",
+											                    "value": 33209
+											                },
+											                {
+											                    "name": "\u745e\u58eb",
+											                    "value": 31154
+											                },
+											                {
+											                    "name": "\u6ce2\u5170",
+											                    "value": 30195
+											                },
+											                {
+											                    "name": "\u83f2\u5f8b\u5bbe",
+											                    "value": 26781
+											                },
+											                {
+											                    "name": "\u963f\u5bcc\u6c57",
+											                    "value": 26310
+											                },
+											                {
+											                    "name": "\u7231\u5c14\u5170",
+											                    "value": 25334
+											                },
+											                {
+											                    "name": "\u963f\u66fc",
+											                    "value": 25269
+											                },
+											                {
+											                    "name": "\u591a\u7c73\u5c3c\u52a0",
+											                    "value": 23686
+											                },
+											                {
+											                    "name": "\u4f0a\u62c9\u514b",
+											                    "value": 22700
+											                },
+											                {
+											                    "name": "\u7f57\u9a6c\u5c3c\u4e9a",
+											                    "value": 22415
+											                },
+											                {
+											                    "name": "\u5df4\u62ff\u9a6c",
+											                    "value": 21962
+											                },
+											                {
+											                    "name": "\u5df4\u6797",
+											                    "value": 19553
+											                },
+											                {
+											                    "name": "\u4ee5\u8272\u5217",
+											                    "value": 19495
+											                },
+											                {
+											                    "name": "\u73bb\u5229\u7ef4\u4e9a",
+											                    "value": 19073
+											                },
+											                {
+											                    "name": "\u4e9a\u7f8e\u5c3c\u4e9a",
+											                    "value": 17489
+											                },
+											                {
+											                    "name": "\u65e5\u672c\u672c\u571f",
+											                    "value": 17481
+											                },
+											                {
+											                    "name": "\u5965\u5730\u5229",
+											                    "value": 17189
+											                },
+											                {
+											                    "name": "\u5c3c\u65e5\u5229\u4e9a",
+											                    "value": 17148
+											                },
+											                {
+											                    "name": "\u54c8\u8428\u514b\u65af\u5766",
+											                    "value": 15192
+											                },
+											                {
+											                    "name": "\u4e39\u9ea6",
+											                    "value": 12450
+											                },
+											                {
+											                    "name": "\u585e\u5c14\u7ef4\u4e9a",
+											                    "value": 12426
+											                },
+											                {
+											                    "name": "\u6469\u5c14\u591a\u74e6",
+											                    "value": 12254
+											                },
+											                {
+											                    "name": "\u97e9\u56fd",
+											                    "value": 12198
+											                },
+											                {
+											                    "name": "\u52a0\u7eb3",
+											                    "value": 12193
+											                },
+											                {
+											                    "name": "\u963f\u5c14\u53ca\u5229\u4e9a",
+											                    "value": 11147
+											                },
+											                {
+											                    "name": "\u5371\u5730\u9a6c\u62c9",
+											                    "value": 10706
+											                },
+											                {
+											                    "name": "\u963f\u585e\u62dc\u7586",
+											                    "value": 10662
+											                },
+											                {
+											                    "name": "\u6377\u514b",
+											                    "value": 10111
+											                },
+											                {
+											                    "name": "\u5580\u9ea6\u9686",
+											                    "value": 9864
+											                },
+											                {
+											                    "name": "\u6d2a\u90fd\u62c9\u65af",
+											                    "value": 9178
+											                },
+											                {
+											                    "name": "\u6469\u6d1b\u54e5",
+											                    "value": 8931
+											                },
+											                {
+											                    "name": "\u632a\u5a01",
+											                    "value": 8660
+											                },
+											                {
+											                    "name": "\u9a6c\u6765\u897f\u4e9a",
+											                    "value": 8505
+											                },
+											                {
+											                    "name": "\u82cf\u4e39",
+											                    "value": 7740
+											                },
+											                {
+											                    "name": "\u6fb3\u5927\u5229\u4e9a",
+											                    "value": 7370
+											                },
+											                {
+											                    "name": "\u82ac\u5170",
+											                    "value": 7112
+											                },
+											                {
+											                    "name": "\u5c3c\u6cca\u5c14",
+											                    "value": 6591
+											                },
+											                {
+											                    "name": "\u79d1\u7279\u8fea\u74e6",
+											                    "value": 5679
+											                },
+											                {
+											                    "name": "\u4e4c\u5179\u522b\u514b\u65af\u5766",
+											                    "value": 5493
+											                },
+											                {
+											                    "name": "\u585e\u5185\u52a0\u5c14",
+											                    "value": 5247
+											                },
+											                {
+											                    "name": "\u5854\u5409\u514b\u65af\u5766",
+											                    "value": 5160
+											                },
+											                {
+											                    "name": "\u521a\u679c\uff08\u91d1\uff09",
+											                    "value": 4974
+											                },
+											                {
+											                    "name": "\u51e0\u5185\u4e9a",
+											                    "value": 4639
+											                },
+											                {
+											                    "name": "\u5409\u5e03\u63d0",
+											                    "value": 4539
+											                },
+											                {
+											                    "name": "\u6d77\u5730",
+											                    "value": 4441
+											                },
+											                {
+											                    "name": "\u5317\u9a6c\u5176\u987f",
+											                    "value": 4299
+											                },
+											                {
+											                    "name": "\u52a0\u84ec",
+											                    "value": 4114
+											                },
+											                {
+											                    "name": "\u5308\u7259\u5229",
+											                    "value": 4077
+											                },
+											                {
+											                    "name": "\u5362\u68ee\u5821",
+											                    "value": 4075
+											                },
+											                {
+											                    "name": "\u8428\u5c14\u74e6\u591a",
+											                    "value": 3941
+											                },
+											                {
+											                    "name": "\u80af\u5c3c\u4e9a",
+											                    "value": 3860
+											                },
+											                {
+											                    "name": "\u57c3\u585e\u4fc4\u6bd4\u4e9a",
+											                    "value": 3630
+											                },
+											                {
+											                    "name": "\u4fdd\u52a0\u5229\u4e9a",
+											                    "value": 3453
+											                },
+											                {
+											                    "name": "\u59d4\u5185\u745e\u62c9",
+											                    "value": 3150
+											                },
+											                {
+											                    "name": "\u5e0c\u814a",
+											                    "value": 3148
+											                },
+											                {
+											                    "name": "\u6cf0\u56fd",
+											                    "value": 3135
+											                },
+											                {
+											                    "name": "\u6ce2\u9ed1",
+											                    "value": 3085
+											                },
+											                {
+											                    "name": "\u7d22\u9a6c\u91cc",
+											                    "value": 2658
+											                },
+											                {
+											                    "name": "\u5409\u5c14\u5409\u65af\u65af\u5766",
+											                    "value": 2472
+											                },
+											                {
+											                    "name": "\u4e2d\u975e\u5171\u548c\u56fd",
+											                    "value": 2410
+											                },
+											                {
+											                    "name": "\u53e4\u5df4",
+											                    "value": 2273
+											                },
+											                {
+											                    "name": "\u514b\u7f57\u5730\u4e9a",
+											                    "value": 2255
+											                },
+											                {
+											                    "name": "\u9a6c\u5c14\u4ee3\u592b",
+											                    "value": 2094
+											                },
+											                {
+											                    "name": "\u6bdb\u91cc\u5854\u5c3c\u4e9a",
+											                    "value": 2057
+											                },
+											                {
+											                    "name": "\u7231\u6c99\u5c3c\u4e9a",
+											                    "value": 1975
+											                },
+											                {
+											                    "name": "\u65af\u91cc\u5170\u5361",
+											                    "value": 1915
+											                },
+											                {
+											                    "name": "\u9a6c\u91cc",
+											                    "value": 1885
+											                },
+											                {
+											                    "name": "\u5c3c\u52a0\u62c9\u74dc",
+											                    "value": 1823
+											                },
+											                {
+											                    "name": "\u51b0\u5c9b",
+											                    "value": 1812
+											                },
+											                {
+											                    "name": "\u54e5\u65af\u8fbe\u9ece\u52a0",
+											                    "value": 1796
+											                },
+											                {
+											                    "name": "\u7acb\u9676\u5b9b",
+											                    "value": 1776
+											                },
+											                {
+											                    "name": "\u963f\u5c14\u5df4\u5c3c\u4e9a",
+											                    "value": 1672
+											                },
+											                {
+											                    "name": "\u65af\u6d1b\u4f10\u514b",
+											                    "value": 1552
+											                },
+											                {
+											                    "name": "\u65b0\u897f\u5170",
+											                    "value": 1506
+											                },
+											                {
+											                    "name": "\u65af\u6d1b\u6587\u5c3c\u4e9a",
+											                    "value": 1499
+											                },
+											                {
+											                    "name": "\u51e0\u5185\u4e9a\u6bd4\u7ecd",
+											                    "value": 1492
+											                },
+											                {
+											                    "name": "\u9ece\u5df4\u5ae9",
+											                    "value": 1473
+											                },
+											                {
+											                    "name": "\u8d5e\u6bd4\u4e9a",
+											                    "value": 1405
+											                },
+											                {
+											                    "name": "\u9a6c\u8fbe\u52a0\u65af\u52a0",
+											                    "value": 1317
+											                },
+											                {
+											                    "name": "\u8d64\u9053\u51e0\u5185\u4e9a",
+											                    "value": 1306
+											                },
+											                {
+											                    "name": "\u5df4\u62c9\u572d",
+											                    "value": 1303
+											                },
+											                {
+											                    "name": "\u585e\u62c9\u5229\u6602",
+											                    "value": 1225
+											                },
+											                {
+											                    "name": "\u7a81\u5c3c\u65af",
+											                    "value": 1125
+											                },
+											                {
+											                    "name": "\u62c9\u8131\u7ef4\u4e9a",
+											                    "value": 1098
+											                },
+											                {
+											                    "name": "\u5c3c\u65e5\u5c14",
+											                    "value": 1016
+											                },
+											                {
+											                    "name": "\u585e\u6d66\u8def\u65af",
+											                    "value": 985
+											                },
+											                {
+											                    "name": "\u7ea6\u65e6",
+											                    "value": 981
+											                },
+											                {
+											                    "name": "\u5e03\u57fa\u7eb3\u6cd5\u7d22",
+											                    "value": 895
+											                },
+											                {
+											                    "name": "\u4e5f\u95e8",
+											                    "value": 885
+											                },
+											                {
+											                    "name": "\u521a\u679c\uff08\u5e03\uff09",
+											                    "value": 883
+											                },
+											                {
+											                    "name": "\u683c\u9c81\u5409\u4e9a",
+											                    "value": 879
+											                },
+											                {
+											                    "name": "\u5b89\u9053\u5c14",
+											                    "value": 854
+											                },
+											                {
+											                    "name": "\u4e4d\u5f97",
+											                    "value": 853
+											                },
+											                {
+											                    "name": "\u4e4c\u62c9\u572d",
+											                    "value": 849
+											                },
+											                {
+											                    "name": "\u4f5b\u5f97\u89d2",
+											                    "value": 781
+											                },
+											                {
+											                    "name": "\u4e4c\u5e72\u8fbe",
+											                    "value": 724
+											                },
+											                {
+											                    "name": "\u94bb\u77f3\u53f7\u90ae\u8f6e",
+											                    "value": 712
+											                },
+											                {
+											                    "name": "\u5723\u9a6c\u529b\u8bfa",
+											                    "value": 694
+											                },
+											                {
+											                    "name": "\u9a6c\u8033\u4ed6",
+											                    "value": 656
+											                },
+											                {
+											                    "name": "\u83ab\u6851\u6bd4\u514b",
+											                    "value": 638
+											                },
+											                {
+											                    "name": "\u5362\u65fa\u8fbe",
+											                    "value": 636
+											                },
+											                {
+											                    "name": "\u7259\u4e70\u52a0",
+											                    "value": 621
+											                },
+											                {
+											                    "name": "\u9a6c\u62c9\u7ef4",
+											                    "value": 564
+											                },
+											                {
+											                    "name": "\u591a\u54e5",
+											                    "value": 537
+											                },
+											                {
+											                    "name": "\u8d1d\u5b81",
+											                    "value": 532
+											                },
+											                {
+											                    "name": "\u65af\u5a01\u58eb\u5170",
+											                    "value": 520
+											                },
+											                {
+											                    "name": "\u5df4\u52d2\u65af\u5766",
+											                    "value": 514
+											                },
+											                {
+											                    "name": "\u5229\u6bd4\u91cc\u4e9a",
+											                    "value": 509
+											                },
+											                {
+											                    "name": "\u5766\u6851\u5c3c\u4e9a",
+											                    "value": 509
+											                },
+											                {
+											                    "name": "\u5229\u6bd4\u4e9a",
+											                    "value": 484
+											                },
+											                {
+											                    "name": "\u6d25\u5df4\u5e03\u97e6",
+											                    "value": 391
+											                },
+											                {
+											                    "name": "\u6bdb\u91cc\u6c42\u65af",
+											                    "value": 337
+											                },
+											                {
+											                    "name": "\u8d8a\u5357",
+											                    "value": 334
+											                },
+											                {
+											                    "name": "\u9ed1\u5c71",
+											                    "value": 326
+											                },
+											                {
+											                    "name": "\u7f05\u7538",
+											                    "value": 262
+											                },
+											                {
+											                    "name": "\u82cf\u91cc\u5357",
+											                    "value": 236
+											                },
+											                {
+											                    "name": "\u79d1\u6469\u7f57",
+											                    "value": 197
+											                },
+											                {
+											                    "name": "\u8499\u53e4",
+											                    "value": 197
+											                },
+											                {
+											                    "name": "\u53d9\u5229\u4e9a",
+											                    "value": 177
+											                },
+											                {
+											                    "name": "\u572d\u4e9a\u90a3",
+											                    "value": 171
+											                },
+											                {
+											                    "name": "\u5b89\u54e5\u62c9",
+											                    "value": 148
+											                },
+											                {
+											                    "name": "\u6587\u83b1",
+											                    "value": 141
+											                },
+											                {
+											                    "name": "\u67ec\u57d4\u5be8",
+											                    "value": 128
+											                },
+											                {
+											                    "name": "\u7279\u7acb\u5c3c\u8fbe\u548c\u591a\u5df4\u54e5",
+											                    "value": 123
+											                },
+											                {
+											                    "name": "\u5384\u7acb\u7279\u91cc\u4e9a",
+											                    "value": 121
+											                },
+											                {
+											                    "name": "\u5e03\u9686\u8fea",
+											                    "value": 104
+											                },
+											                {
+											                    "name": "\u5df4\u54c8\u9a6c",
+											                    "value": 104
+											                },
+											                {
+											                    "name": "\u6469\u7eb3\u54e5",
+											                    "value": 99
+											                },
+											                {
+											                    "name": "\u5df4\u5df4\u591a\u65af",
+											                    "value": 97
+											                },
+											                {
+											                    "name": "\u5217\u652f\u6566\u58eb\u767b\u516c\u56fd",
+											                    "value": 82
+											                },
+											                {
+											                    "name": "\u4e0d\u4e39",
+											                    "value": 67
+											                },
+											                {
+											                    "name": "\u535a\u8328\u74e6\u7eb3",
+											                    "value": 60
+											                },
+											                {
+											                    "name": "\u9a6c\u63d0\u5c3c\u514b\u5c9b",
+											                    "value": 37
+											                },
+											                {
+											                    "name": "\u7eb3\u7c73\u6bd4\u4e9a",
+											                    "value": 34
+											                },
+											                {
+											                    "name": "\u5188\u6bd4\u4e9a",
+											                    "value": 34
+											                },
+											                {
+											                    "name": "\u5723\u6587\u68ee\u7279\u548c\u683c\u6797\u7eb3\u4e01\u65af",
+											                    "value": 29
+											                },
+											                {
+											                    "name": "\u5b89\u63d0\u74dc\u548c\u5df4\u5e03\u8fbe",
+											                    "value": 26
+											                },
+											                {
+											                    "name": "\u4e1c\u5e1d\u6c76",
+											                    "value": 24
+											                },
+											                {
+											                    "name": "\u683c\u6797\u7eb3\u8fbe",
+											                    "value": 23
+											                },
+											                {
+											                    "name": "\u4f2f\u5229\u5179",
+											                    "value": 21
+											                },
+											                {
+											                    "name": "\u5723\u5362\u897f\u4e9a",
+											                    "value": 19
+											                },
+											                {
+											                    "name": "\u8001\u631d",
+											                    "value": 19
+											                },
+											                {
+											                    "name": "\u6590\u6d4e",
+											                    "value": 18
+											                },
+											                {
+											                    "name": "\u591a\u7c73\u5c3c\u514b",
+											                    "value": 18
+											                },
+											                {
+											                    "name": "\u5723\u57fa\u8328\u548c\u5c3c\u7ef4\u65af",
+											                    "value": 15
+											                },
+											                {
+											                    "name": "\u68b5\u8482\u5188",
+											                    "value": 12
+											                },
+											                {
+											                    "name": "\u585e\u820c\u5c14",
+											                    "value": 11
+											                },
+											                {
+											                    "name": "\u5df4\u5e03\u4e9a\u65b0\u51e0\u5185\u4e9a",
+											                    "value": 8
+											                },
+											                {
+											                    "name": "\u83b1\u7d22\u6258",
+											                    "value": 4
+											                }
+											            ],
+											            "roam": true,
+											            "zoom": 1,
+											            "nameMap": {
+											                "Singapore Rep.": "\u65b0\u52a0\u5761",
+											                "Dominican Rep.": "\u591a\u7c73\u5c3c\u52a0",
+											                "Palestine": "\u5df4\u52d2\u65af\u5766",
+											                "Bahamas": "\u5df4\u54c8\u9a6c",
+											                "Timor-Leste": "\u4e1c\u5e1d\u6c76",
+											                "Afghanistan": "\u963f\u5bcc\u6c57",
+											                "Guinea-Bissau": "\u51e0\u5185\u4e9a\u6bd4\u7ecd",
+											                "C\u00f4te d'Ivoire": "\u79d1\u7279\u8fea\u74e6",
+											                "Siachen Glacier": "\u9521\u4e9a\u7434\u51b0\u5ddd",
+											                "Br. Indian Ocean Ter.": "\u82f1\u5c5e\u5370\u5ea6\u6d0b\u9886\u571f",
+											                "Angola": "\u5b89\u54e5\u62c9",
+											                "Albania": "\u963f\u5c14\u5df4\u5c3c\u4e9a",
+											                "United Arab Emirates": "\u963f\u8054\u914b",
+											                "Argentina": "\u963f\u6839\u5ef7",
+											                "Armenia": "\u4e9a\u7f8e\u5c3c\u4e9a",
+											                "French Southern and Antarctic Lands": "\u6cd5\u5c5e\u5357\u534a\u7403\u548c\u5357\u6781\u9886\u5730",
+											                "Australia": "\u6fb3\u5927\u5229\u4e9a",
+											                "Austria": "\u5965\u5730\u5229",
+											                "Azerbaijan": "\u963f\u585e\u62dc\u7586",
+											                "Burundi": "\u5e03\u9686\u8fea",
+											                "Belgium": "\u6bd4\u5229\u65f6",
+											                "Benin": "\u8d1d\u5b81",
+											                "Burkina Faso": "\u5e03\u57fa\u7eb3\u6cd5\u7d22",
+											                "Bangladesh": "\u5b5f\u52a0\u62c9\u56fd",
+											                "Bulgaria": "\u4fdd\u52a0\u5229\u4e9a",
+											                "The Bahamas": "\u5df4\u54c8\u9a6c",
+											                "Bosnia and Herz.": "\u6ce2\u65af\u5c3c\u4e9a\u548c\u9ed1\u585e\u54e5\u7ef4\u90a3",
+											                "Belarus": "\u767d\u4fc4\u7f57\u65af",
+											                "Belize": "\u4f2f\u5229\u5179",
+											                "Bermuda": "\u767e\u6155\u5927",
+											                "Bolivia": "\u73bb\u5229\u7ef4\u4e9a",
+											                "Brazil": "\u5df4\u897f",
+											                "Brunei": "\u6587\u83b1",
+											                "Bhutan": "\u4e0d\u4e39",
+											                "Botswana": "\u535a\u8328\u74e6\u7eb3",
+											                "Central African Rep.": "\u4e2d\u975e\u5171\u548c\u56fd",
+											                "Canada": "\u52a0\u62ff\u5927",
+											                "Switzerland": "\u745e\u58eb",
+											                "Chile": "\u667a\u5229",
+											                "China": "\u4e2d\u56fd",
+											                "Ivory Coast": "\u8c61\u7259\u6d77\u5cb8",
+											                "Cameroon": "\u5580\u9ea6\u9686",
+											                "Dem. Rep. Congo": "\u521a\u679c\uff08\u91d1\uff09",
+											                "Congo": "\u521a\u679c\uff08\u5e03\uff09",
+											                "Colombia": "\u54e5\u4f26\u6bd4\u4e9a",
+											                "Costa Rica": "\u54e5\u65af\u8fbe\u9ece\u52a0",
+											                "Cuba": "\u53e4\u5df4",
+											                "N. Cyprus": "\u5317\u585e\u6d66\u8def\u65af",
+											                "Cyprus": "\u585e\u6d66\u8def\u65af",
+											                "Czech Rep.": "\u6377\u514b",
+											                "Germany": "\u5fb7\u56fd",
+											                "Djibouti": "\u5409\u5e03\u63d0",
+											                "Denmark": "\u4e39\u9ea6",
+											                "Algeria": "\u963f\u5c14\u53ca\u5229\u4e9a",
+											                "Ecuador": "\u5384\u74dc\u591a\u5c14",
+											                "Egypt": "\u57c3\u53ca",
+											                "Eritrea": "\u5384\u7acb\u7279\u91cc\u4e9a",
+											                "Spain": "\u897f\u73ed\u7259",
+											                "Estonia": "\u7231\u6c99\u5c3c\u4e9a",
+											                "Ethiopia": "\u57c3\u585e\u4fc4\u6bd4\u4e9a",
+											                "Finland": "\u82ac\u5170",
+											                "Fiji": "\u6590",
+											                "Falkland Islands": "\u798f\u514b\u5170\u7fa4\u5c9b",
+											                "France": "\u6cd5\u56fd",
+											                "Gabon": "\u52a0\u84ec",
+											                "United Kingdom": "\u82f1\u56fd",
+											                "Georgia": "\u683c\u9c81\u5409\u4e9a",
+											                "Ghana": "\u52a0\u7eb3",
+											                "Guinea": "\u51e0\u5185\u4e9a",
+											                "Gambia": "\u5188\u6bd4\u4e9a",
+											                "Guinea Bissau": "\u51e0\u5185\u4e9a\u6bd4\u7ecd",
+											                "Eq. Guinea": "\u8d64\u9053\u51e0\u5185\u4e9a",
+											                "Greece": "\u5e0c\u814a",
+											                "Greenland": "\u683c\u9675\u5170",
+											                "Guatemala": "\u5371\u5730\u9a6c\u62c9",
+											                "French Guiana": "\u6cd5\u5c5e\u572d\u4e9a\u90a3",
+											                "Guyana": "\u572d\u4e9a\u90a3",
+											                "Honduras": "\u6d2a\u90fd\u62c9\u65af",
+											                "Croatia": "\u514b\u7f57\u5730\u4e9a",
+											                "Haiti": "\u6d77\u5730",
+											                "Hungary": "\u5308\u7259\u5229",
+											                "Indonesia": "\u5370\u5ea6\u5c3c\u897f\u4e9a",
+											                "India": "\u5370\u5ea6",
+											                "Ireland": "\u7231\u5c14\u5170",
+											                "Iran": "\u4f0a\u6717",
+											                "Iraq": "\u4f0a\u62c9\u514b",
+											                "Iceland": "\u51b0\u5c9b",
+											                "Israel": "\u4ee5\u8272\u5217",
+											                "Italy": "\u610f\u5927\u5229",
+											                "Jamaica": "\u7259\u4e70\u52a0",
+											                "Jordan": "\u7ea6\u65e6",
+											                "Japan": "\u65e5\u672c\u672c\u571f",
+											                "Kazakhstan": "\u54c8\u8428\u514b\u65af\u5766",
+											                "Kenya": "\u80af\u5c3c\u4e9a",
+											                "Kyrgyzstan": "\u5409\u5c14\u5409\u65af\u65af\u5766",
+											                "Cambodia": "\u67ec\u57d4\u5be8",
+											                "Korea": "\u97e9\u56fd",
+											                "Kosovo": "\u79d1\u7d22\u6c83",
+											                "Kuwait": "\u79d1\u5a01\u7279",
+											                "Lao PDR": "\u8001\u631d",
+											                "Lebanon": "\u9ece\u5df4\u5ae9",
+											                "Liberia": "\u5229\u6bd4\u91cc\u4e9a",
+											                "Libya": "\u5229\u6bd4\u4e9a",
+											                "Sri Lanka": "\u65af\u91cc\u5170\u5361",
+											                "Lesotho": "\u83b1\u7d22\u6258",
+											                "Lithuania": "\u7acb\u9676\u5b9b",
+											                "Luxembourg": "\u5362\u68ee\u5821",
+											                "Latvia": "\u62c9\u8131\u7ef4\u4e9a",
+											                "Morocco": "\u6469\u6d1b\u54e5",
+											                "Moldova": "\u6469\u5c14\u591a\u74e6",
+											                "Madagascar": "\u9a6c\u8fbe\u52a0\u65af\u52a0",
+											                "Mexico": "\u58a8\u897f\u54e5",
+											                "Macedonia": "\u9a6c\u5176\u987f",
+											                "Mali": "\u9a6c\u91cc",
+											                "Myanmar": "\u7f05\u7538",
+											                "Montenegro": "\u9ed1\u5c71",
+											                "Mongolia": "\u8499\u53e4",
+											                "Mozambique": "\u83ab\u6851\u6bd4\u514b",
+											                "Mauritania": "\u6bdb\u91cc\u5854\u5c3c\u4e9a",
+											                "Malawi": "\u9a6c\u62c9\u7ef4",
+											                "Malaysia": "\u9a6c\u6765\u897f\u4e9a",
+											                "Namibia": "\u7eb3\u7c73\u6bd4\u4e9a",
+											                "New Caledonia": "\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a",
+											                "Niger": "\u5c3c\u65e5\u5c14",
+											                "Nigeria": "\u5c3c\u65e5\u5229\u4e9a",
+											                "Nicaragua": "\u5c3c\u52a0\u62c9\u74dc",
+											                "Netherlands": "\u8377\u5170",
+											                "Norway": "\u632a\u5a01",
+											                "Nepal": "\u5c3c\u6cca\u5c14",
+											                "New Zealand": "\u65b0\u897f\u5170",
+											                "Oman": "\u963f\u66fc",
+											                "Pakistan": "\u5df4\u57fa\u65af\u5766",
+											                "Panama": "\u5df4\u62ff\u9a6c",
+											                "Peru": "\u79d8\u9c81",
+											                "Philippines": "\u83f2\u5f8b\u5bbe",
+											                "Papua New Guinea": "\u5df4\u5e03\u4e9a\u65b0\u51e0\u5185\u4e9a",
+											                "Poland": "\u6ce2\u5170",
+											                "Puerto Rico": "\u6ce2\u591a\u9ece\u5404",
+											                "Dem. Rep. Korea": "\u671d\u9c9c",
+											                "Portugal": "\u8461\u8404\u7259",
+											                "Paraguay": "\u5df4\u62c9\u572d",
+											                "Qatar": "\u5361\u5854\u5c14",
+											                "Romania": "\u7f57\u9a6c\u5c3c\u4e9a",
+											                "Russia": "\u4fc4\u7f57\u65af",
+											                "Rwanda": "\u5362\u65fa\u8fbe",
+											                "W. Sahara": "\u897f\u6492\u54c8\u62c9",
+											                "Saudi Arabia": "\u6c99\u7279\u963f\u62c9\u4f2f",
+											                "Sudan": "\u82cf\u4e39",
+											                "S. Sudan": "\u5357\u82cf\u4e39",
+											                "Senegal": "\u585e\u5185\u52a0\u5c14",
+											                "Solomon Is.": "\u6240\u7f57\u95e8\u7fa4\u5c9b",
+											                "Sierra Leone": "\u585e\u62c9\u5229\u6602",
+											                "El Salvador": "\u8428\u5c14\u74e6\u591a",
+											                "Somaliland": "\u7d22\u9a6c\u91cc\u5170",
+											                "Somalia": "\u7d22\u9a6c\u91cc",
+											                "Serbia": "\u585e\u5c14\u7ef4\u4e9a",
+											                "Suriname": "\u82cf\u91cc\u5357",
+											                "Slovakia": "\u65af\u6d1b\u4f10\u514b",
+											                "Slovenia": "\u65af\u6d1b\u6587\u5c3c\u4e9a",
+											                "Sweden": "\u745e\u5178",
+											                "Swaziland": "\u65af\u5a01\u58eb\u5170",
+											                "Syria": "\u53d9\u5229\u4e9a",
+											                "Chad": "\u4e4d\u5f97",
+											                "Togo": "\u591a\u54e5",
+											                "Thailand": "\u6cf0\u56fd",
+											                "Tajikistan": "\u5854\u5409\u514b\u65af\u5766",
+											                "Turkmenistan": "\u571f\u5e93\u66fc\u65af\u5766",
+											                "East Timor": "\u4e1c\u5e1d\u6c76",
+											                "Trinidad and Tobago": "\u7279\u91cc\u5c3c\u8fbe\u548c\u591a\u5df4\u54e5",
+											                "Tunisia": "\u7a81\u5c3c\u65af",
+											                "Turkey": "\u571f\u8033\u5176",
+											                "Tanzania": "\u5766\u6851\u5c3c\u4e9a",
+											                "Uganda": "\u4e4c\u5e72\u8fbe",
+											                "Ukraine": "\u4e4c\u514b\u5170",
+											                "Uruguay": "\u4e4c\u62c9\u572d",
+											                "United States": "\u7f8e\u56fd",
+											                "Uzbekistan": "\u4e4c\u5179\u522b\u514b\u65af\u5766",
+											                "Venezuela": "\u59d4\u5185\u745e\u62c9",
+											                "Vietnam": "\u8d8a\u5357",
+											                "Vanuatu": "\u74e6\u52aa\u963f\u56fe",
+											                "West Bank": "\u897f\u5cb8",
+											                "Yemen": "\u4e5f\u95e8",
+											                "South Africa": "\u5357\u975e",
+											                "Zambia": "\u8d5e\u6bd4\u4e9a",
+											                "Zimbabwe": "\u6d25\u5df4\u5e03\u97e6"
+											            },
+											            "showLegendSymbol": false,
+											            "emphasis": {},
+											            "rippleEffect": {
+											                "show": true,
+											                "brushType": "stroke",
+											                "scale": 2.5,
+											                "period": 4
+											            }
+											        }
+											    ],
+											    "legend": [
+											        {
+											            "data": [
+											                "\u7d2f\u8ba1\u786e\u8bca"
+											            ],
+											            "selected": {
+											                "\u7d2f\u8ba1\u786e\u8bca": true
+											            },
+											            "show": true,
+											            "padding": 5,
+											            "itemGap": 10,
+											            "itemWidth": 25,
+											            "itemHeight": 14
+											        }
+											    ],
+											    "tooltip": {
+											        "show": true,
+											        "trigger": "item",
+											        "triggerOn": "mousemove|click",
+											        "axisPointer": {
+											            "type": "line"
+											        },
+											        "textStyle": {
+											            "fontSize": 14
+											        },
+											        "borderWidth": 0
+											    },
+											    "title": [
+											        {
+											            "padding": 5,
+											            "itemGap": 10
+											        }
+											    ],
+											    "visualMap": {
+											        "show": true,
+											        "type": "piecewise",
+											        "min": 0,
+											        "max": 100,
+											        "inRange": {
+											            "color": [
+											                "#50a3ba",
+											                "#eac763",
+											                "#d94e5d"
+											            ]
+											        },
+											        "calculable": true,
+											        "inverse": false,
+											        "splitNumber": 5,
+											        "orient": "vertical",
+											        "showLabel": true,
+											        "itemWidth": 20,
+											        "itemHeight": 14,
+											        "borderWidth": 0,
+											        "pieces": [
+											            {
+											                "min": 900000,
+											                "color": "#800000"
+											            },
+											            {
+											                "min": 50000,
+											                "max": 500000,
+											                "lable": "0.15~0.19",
+											                "color": "#AA0000"
+											            },
+											            {
+											                "min": 10000,
+											                "max": 50000,
+											                "color": "#CC0000"
+											            },
+											            {
+											                "min": 1000,
+											                "max": 10000,
+											                "color": "#FF0000"
+											            },
+											            {
+											                "min": 0,
+											                "max": 1000,
+											                "color": "#FF3333"
+											            },
+											            {
+											                "max": 0,
+											                "color": "#FFCCCC"
+											            }
+											        ]
+											    }
+											};
+											        chart_06b3afaaeec343e1ae759ae09a57b775.setOption(option_06b3afaaeec343e1ae759ae09a57b775);
+											</script>
+										</div>
+									</body>
+									<body>
+										<div class="dt_style">
+											<div id="0b1573fcff72404e8ad27568759e0ec5" class="chart-container" style="width:800px; height:500px;"></div>
+											    <script>
+											        var chart_0b1573fcff72404e8ad27568759e0ec5 = echarts.init(
+											            document.getElementById('0b1573fcff72404e8ad27568759e0ec5'), 'white', {renderer: 'canvas'});
+											        var option_0b1573fcff72404e8ad27568759e0ec5 = {
+											    "animation": true,
+											    "animationThreshold": 2000,
+											    "animationDuration": 1000,
+											    "animationEasing": "cubicOut",
+											    "animationDelay": 0,
+											    "animationDurationUpdate": 300,
+											    "animationEasingUpdate": "cubicOut",
+											    "animationDelayUpdate": 0,
+											    "color": [
+											        "#c23531",
+											        "#2f4554",
+											        "#61a0a8",
+											        "#d48265",
+											        "#749f83",
+											        "#ca8622",
+											        "#bda29a",
+											        "#6e7074",
+											        "#546570",
+											        "#c4ccd3",
+											        "#f05b72",
+											        "#ef5b9c",
+											        "#f47920",
+											        "#905a3d",
+											        "#fab27b",
+											        "#2a5caa",
+											        "#444693",
+											        "#726930",
+											        "#b2d235",
+											        "#6d8346",
+											        "#ac6767",
+											        "#1d953f",
+											        "#6950a1",
+											        "#918597"
+											    ],
+											    "series": [
+											        {
+											            "type": "line",
+											            "name": "\u7d2f\u8ba1\u786e\u8bca",
+											            "connectNulls": false,
+											            "symbolSize": 4,
+											            "showSymbol": true,
+											            "smooth": false,
+											            "step": false,
+											            "data": [
+											                [
+											                    "01.28",
+											                    57
+											                ],
+											                [
+											                    "01.29",
+											                    74
+											                ],
+											                [
+											                    "01.30",
+											                    98
+											                ],
+											                [
+											                    "01.31",
+											                    124
+											                ],
+											                [
+											                    "02.01",
+											                    139
+											                ],
+											                [
+											                    "02.02",
+											                    149
+											                ],
+											                [
+											                    "02.03",
+											                    154
+											                ],
+											                [
+											                    "02.04",
+											                    177
+											                ],
+											                [
+											                    "02.05",
+											                    201
+											                ],
+											                [
+											                    "02.06",
+											                    225
+											                ],
+											                [
+											                    "02.07",
+											                    273
+											                ],
+											                [
+											                    "02.08",
+											                    299
+											                ],
+											                [
+											                    "02.09",
+											                    313
+											                ],
+											                [
+											                    "02.10",
+											                    385
+											                ],
+											                [
+											                    "02.11",
+											                    397
+											                ],
+											                [
+											                    "02.12",
+											                    444
+											                ],
+											                [
+											                    "02.13",
+											                    505
+											                ],
+											                [
+											                    "02.14",
+											                    516
+											                ],
+											                [
+											                    "02.15",
+											                    601
+											                ],
+											                [
+											                    "02.16",
+											                    687
+											                ],
+											                [
+											                    "02.17",
+											                    800
+											                ],
+											                [
+											                    "02.18",
+											                    904
+											                ],
+											                [
+											                    "02.19",
+											                    1018
+											                ],
+											                [
+											                    "02.20",
+											                    1096
+											                ],
+											                [
+											                    "02.21",
+											                    1231
+											                ],
+											                [
+											                    "02.22",
+											                    1528
+											                ],
+											                [
+											                    "02.23",
+											                    1895
+											                ],
+											                [
+											                    "02.24",
+											                    2286
+											                ],
+											                [
+											                    "02.25",
+											                    2575
+											                ],
+											                [
+											                    "02.26",
+											                    3085
+											                ],
+											                [
+											                    "02.27",
+											                    3945
+											                ],
+											                [
+											                    "02.28",
+											                    4947
+											                ],
+											                [
+											                    "02.29",
+											                    6305
+											                ],
+											                [
+											                    "03.01",
+											                    7342
+											                ],
+											                [
+											                    "03.02",
+											                    9628
+											                ],
+											                [
+											                    "03.03",
+											                    12047
+											                ],
+											                [
+											                    "03.04",
+											                    13897
+											                ],
+											                [
+											                    "03.05",
+											                    16234
+											                ],
+											                [
+											                    "03.06",
+											                    19488
+											                ],
+											                [
+											                    "03.07",
+											                    23013
+											                ],
+											                [
+											                    "03.08",
+											                    26959
+											                ],
+											                [
+											                    "03.09",
+											                    30814
+											                ],
+											                [
+											                    "03.10",
+											                    35796
+											                ],
+											                [
+											                    "03.11",
+											                    41212
+											                ],
+											                [
+											                    "03.12",
+											                    48743
+											                ],
+											                [
+											                    "03.13",
+											                    58493
+											                ],
+											                [
+											                    "03.14",
+											                    67414
+											                ],
+											                [
+											                    "03.15",
+											                    79582
+											                ],
+											                [
+											                    "03.16",
+											                    92523
+											                ],
+											                [
+											                    "03.17",
+											                    106190
+											                ],
+											                [
+											                    "03.18",
+											                    122946
+											                ],
+											                [
+											                    "03.19",
+											                    147281
+											                ],
+											                [
+											                    "03.20",
+											                    169551
+											                ],
+											                [
+											                    "03.21",
+											                    195941
+											                ],
+											                [
+											                    "03.22",
+											                    235102
+											                ],
+											                [
+											                    "03.23",
+											                    270017
+											                ],
+											                [
+											                    "03.24",
+											                    313330
+											                ],
+											                [
+											                    "03.25",
+											                    355599
+											                ],
+											                [
+											                    "03.26",
+											                    407265
+											                ],
+											                [
+											                    "03.27",
+											                    465884
+											                ],
+											                [
+											                    "03.28",
+											                    536355
+											                ],
+											                [
+											                    "03.29",
+											                    598686
+											                ],
+											                [
+											                    "03.30",
+											                    658696
+											                ],
+											                [
+											                    "03.31",
+											                    662138
+											                ],
+											                [
+											                    "04.02",
+											                    662453
+											                ],
+											                [
+											                    "04.03",
+											                    662459
+											                ],
+											                [
+											                    "04.05",
+											                    662770
+											                ],
+											                [
+											                    "04.13",
+											                    665615
+											                ],
+											                [
+											                    "04.14",
+											                    666039
+											                ],
+											                [
+											                    "04.15",
+											                    666450
+											                ],
+											                [
+											                    "04.16",
+											                    1163393
+											                ],
+											                [
+											                    "04.17",
+											                    1282444
+											                ],
+											                [
+											                    "04.18",
+											                    1317007
+											                ],
+											                [
+											                    "04.19",
+											                    1345517
+											                ],
+											                [
+											                    "04.20",
+											                    1370721
+											                ],
+											                [
+											                    "04.21",
+											                    1399071
+											                ],
+											                [
+											                    "04.22",
+											                    1436399
+											                ],
+											                [
+											                    "04.23",
+											                    1454132
+											                ],
+											                [
+											                    "04.24",
+											                    1481436
+											                ],
+											                [
+											                    "04.25",
+											                    1555453
+											                ],
+											                [
+											                    "04.26",
+											                    1589985
+											                ],
+											                [
+											                    "04.27",
+											                    1615942
+											                ],
+											                [
+											                    "04.28",
+											                    1642302
+											                ],
+											                [
+											                    "04.29",
+											                    1667678
+											                ],
+											                [
+											                    "04.30",
+											                    1696211
+											                ],
+											                [
+											                    "05.01",
+											                    1902083
+											                ],
+											                [
+											                    "05.02",
+											                    1944018
+											                ],
+											                [
+											                    "05.03",
+											                    1973762
+											                ],
+											                [
+											                    "05.04",
+											                    2003844
+											                ],
+											                [
+											                    "05.05",
+											                    2030817
+											                ],
+											                [
+											                    "05.06",
+											                    2055615
+											                ],
+											                [
+											                    "05.07",
+											                    2084195
+											                ],
+											                [
+											                    "05.08",
+											                    2116899
+											                ],
+											                [
+											                    "05.09",
+											                    2149323
+											                ],
+											                [
+											                    "05.10",
+											                    2177513
+											                ],
+											                [
+											                    "05.11",
+											                    2199722
+											                ],
+											                [
+											                    "05.12",
+											                    2221398
+											                ],
+											                [
+											                    "05.13",
+											                    2245577
+											                ],
+											                [
+											                    "05.14",
+											                    2268864
+											                ],
+											                [
+											                    "05.15",
+											                    2297660
+											                ],
+											                [
+											                    "05.16",
+											                    2326073
+											                ],
+											                [
+											                    "05.17",
+											                    2351699
+											                ],
+											                [
+											                    "05.18",
+											                    2372804
+											                ],
+											                [
+											                    "05.19",
+											                    2395903
+											                ],
+											                [
+											                    "05.20",
+											                    2416807
+											                ],
+											                [
+											                    "05.21",
+											                    2439668
+											                ],
+											                [
+											                    "05.22",
+											                    2468435
+											                ],
+											                [
+											                    "05.23",
+											                    2494304
+											                ],
+											                [
+											                    "05.24",
+											                    2516619
+											                ],
+											                [
+											                    "05.25",
+											                    2536709
+											                ],
+											                [
+											                    "05.26",
+											                    2556499
+											                ],
+											                [
+											                    "05.27",
+											                    2576035
+											                ],
+											                [
+											                    "05.28",
+											                    2597073
+											                ],
+											                [
+											                    "05.29",
+											                    2620868
+											                ],
+											                [
+											                    "05.30",
+											                    2646595
+											                ],
+											                [
+											                    "05.31",
+											                    2670549
+											                ],
+											                [
+											                    "06.01",
+											                    2691100
+											                ],
+											                [
+											                    "06.02",
+											                    2713462
+											                ],
+											                [
+											                    "06.03",
+											                    2735638
+											                ],
+											                [
+											                    "06.04",
+											                    2756610
+											                ],
+											                [
+											                    "06.05",
+											                    2779212
+											                ],
+											                [
+											                    "06.06",
+											                    2821187
+											                ],
+											                [
+											                    "06.07",
+											                    2844355
+											                ],
+											                [
+											                    "06.08",
+											                    2863500
+											                ],
+											                [
+											                    "06.09",
+											                    2882711
+											                ],
+											                [
+											                    "06.10",
+											                    2902016
+											                ],
+											                [
+											                    "06.11",
+											                    2923182
+											                ],
+											                [
+											                    "06.12",
+											                    2946909
+											                ],
+											                [
+											                    "06.13",
+											                    2974632
+											                ],
+											                [
+											                    "06.14",
+											                    3000330
+											                ],
+											                [
+											                    "06.15",
+											                    3020657
+											                ],
+											                [
+											                    "06.16",
+											                    3041560
+											                ],
+											                [
+											                    "06.17",
+											                    3067229
+											                ]
+											            ],
+											            "hoverAnimation": true,
+											            "label": {
+											                "show": true,
+											                "position": "top",
+											                "margin": 8
+											            },
+											            "lineStyle": {
+											                "show": true,
+											                "width": 1,
+											                "opacity": 1,
+											                "curveness": 0,
+											                "type": "solid"
+											            },
+											            "areaStyle": {
+											                "opacity": 0
+											            },
+											            "zlevel": 0,
+											            "z": 0
+											        },
+											        {
+											            "type": "line",
+											            "name": "\u7d2f\u8ba1\u6cbb\u6108",
+											            "connectNulls": false,
+											            "symbolSize": 4,
+											            "showSymbol": true,
+											            "smooth": false,
+											            "step": false,
+											            "data": [
+											                [
+											                    "01.28",
+											                    3
+											                ],
+											                [
+											                    "01.29",
+											                    3
+											                ],
+											                [
+											                    "01.30",
+											                    6
+											                ],
+											                [
+											                    "01.31",
+											                    11
+											                ],
+											                [
+											                    "02.01",
+											                    11
+											                ],
+											                [
+											                    "02.02",
+											                    11
+											                ],
+											                [
+											                    "02.03",
+											                    12
+											                ],
+											                [
+											                    "02.04",
+											                    19
+											                ],
+											                [
+											                    "02.05",
+											                    21
+											                ],
+											                [
+											                    "02.06",
+											                    25
+											                ],
+											                [
+											                    "02.07",
+											                    27
+											                ],
+											                [
+											                    "02.08",
+											                    29
+											                ],
+											                [
+											                    "02.09",
+											                    30
+											                ],
+											                [
+											                    "02.10",
+											                    36
+											                ],
+											                [
+											                    "02.11",
+											                    44
+											                ],
+											                [
+											                    "02.12",
+											                    50
+											                ],
+											                [
+											                    "02.13",
+											                    56
+											                ],
+											                [
+											                    "02.14",
+											                    59
+											                ],
+											                [
+											                    "02.15",
+											                    61
+											                ],
+											                [
+											                    "02.16",
+											                    84
+											                ],
+											                [
+											                    "02.17",
+											                    88
+											                ],
+											                [
+											                    "02.18",
+											                    114
+											                ],
+											                [
+											                    "02.19",
+											                    127
+											                ],
+											                [
+											                    "02.20",
+											                    127
+											                ],
+											                [
+											                    "02.21",
+											                    142
+											                ],
+											                [
+											                    "02.22",
+											                    154
+											                ],
+											                [
+											                    "02.23",
+											                    155
+											                ],
+											                [
+											                    "02.24",
+											                    173
+											                ],
+											                [
+											                    "02.25",
+											                    192
+											                ],
+											                [
+											                    "02.26",
+											                    220
+											                ],
+											                [
+											                    "02.27",
+											                    310
+											                ],
+											                [
+											                    "02.28",
+											                    360
+											                ],
+											                [
+											                    "02.29",
+											                    455
+											                ],
+											                [
+											                    "03.01",
+											                    1020
+											                ],
+											                [
+											                    "03.02",
+											                    558
+											                ],
+											                [
+											                    "03.03",
+											                    895
+											                ],
+											                [
+											                    "03.04",
+											                    909
+											                ],
+											                [
+											                    "03.05",
+											                    1087
+											                ],
+											                [
+											                    "03.06",
+											                    1566
+											                ],
+											                [
+											                    "03.07",
+											                    1730
+											                ],
+											                [
+											                    "03.08",
+											                    3208
+											                ],
+											                [
+											                    "03.09",
+											                    3614
+											                ],
+											                [
+											                    "03.10",
+											                    4212
+											                ],
+											                [
+											                    "03.11",
+											                    5274
+											                ],
+											                [
+											                    "03.12",
+											                    5779
+											                ],
+											                [
+											                    "03.13",
+											                    6544
+											                ],
+											                [
+											                    "03.14",
+											                    7947
+											                ],
+											                [
+											                    "03.15",
+											                    9304
+											                ],
+											                [
+											                    "03.16",
+											                    10447
+											                ],
+											                [
+											                    "03.17",
+											                    11680
+											                ],
+											                [
+											                    "03.18",
+											                    13496
+											                ],
+											                [
+											                    "03.19",
+											                    15402
+											                ],
+											                [
+											                    "03.20",
+											                    17687
+											                ],
+											                [
+											                    "03.21",
+											                    20216
+											                ],
+											                [
+											                    "03.22",
+											                    23721
+											                ],
+											                [
+											                    "03.23",
+											                    26708
+											                ],
+											                [
+											                    "03.24",
+											                    29295
+											                ],
+											                [
+											                    "03.25",
+											                    35306
+											                ],
+											                [
+											                    "03.26",
+											                    41192
+											                ],
+											                [
+											                    "03.27",
+											                    50267
+											                ],
+											                [
+											                    "03.28",
+											                    59191
+											                ],
+											                [
+											                    "03.29",
+											                    67858
+											                ],
+											                [
+											                    "03.30",
+											                    78275
+											                ],
+											                [
+											                    "03.31",
+											                    79048
+											                ],
+											                [
+											                    "04.02",
+											                    79648
+											                ],
+											                [
+											                    "04.03",
+											                    79648
+											                ],
+											                [
+											                    "04.05",
+											                    79654
+											                ],
+											                [
+											                    "04.13",
+											                    79757
+											                ],
+											                [
+											                    "04.14",
+											                    79757
+											                ],
+											                [
+											                    "04.15",
+											                    79757
+											                ],
+											                [
+											                    "04.16",
+											                    127673
+											                ],
+											                [
+											                    "04.17",
+											                    139690
+											                ],
+											                [
+											                    "04.18",
+											                    143970
+											                ],
+											                [
+											                    "04.19",
+											                    150301
+											                ],
+											                [
+											                    "04.20",
+											                    154458
+											                ],
+											                [
+											                    "04.21",
+											                    156980
+											                ],
+											                [
+											                    "04.22",
+											                    159129
+											                ],
+											                [
+											                    "04.23",
+											                    160511
+											                ],
+											                [
+											                    "04.24",
+											                    164384
+											                ],
+											                [
+											                    "04.25",
+											                    197589
+											                ],
+											                [
+											                    "04.26",
+											                    204283
+											                ],
+											                [
+											                    "04.27",
+											                    205520
+											                ],
+											                [
+											                    "04.28",
+											                    211138
+											                ],
+											                [
+											                    "04.29",
+											                    215557
+											                ],
+											                [
+											                    "04.30",
+											                    223928
+											                ],
+											                [
+											                    "05.01",
+											                    376856
+											                ],
+											                [
+											                    "05.02",
+											                    392721
+											                ],
+											                [
+											                    "05.03",
+											                    404476
+											                ],
+											                [
+											                    "05.04",
+											                    414821
+											                ],
+											                [
+											                    "05.05",
+											                    427670
+											                ],
+											                [
+											                    "05.06",
+											                    440269
+											                ],
+											                [
+											                    "05.07",
+											                    457265
+											                ],
+											                [
+											                    "05.08",
+											                    466094
+											                ],
+											                [
+											                    "05.09",
+											                    476936
+											                ],
+											                [
+											                    "05.10",
+											                    510190
+											                ],
+											                [
+											                    "05.11",
+											                    517700
+											                ],
+											                [
+											                    "05.12",
+											                    524996
+											                ],
+											                [
+											                    "05.13",
+											                    562141
+											                ],
+											                [
+											                    "05.14",
+											                    578411
+											                ],
+											                [
+											                    "05.15",
+											                    589432
+											                ],
+											                [
+											                    "05.16",
+											                    601643
+											                ],
+											                [
+											                    "05.17",
+											                    616410
+											                ],
+											                [
+											                    "05.18",
+											                    627259
+											                ],
+											                [
+											                    "05.19",
+											                    638266
+											                ],
+											                [
+											                    "05.20",
+											                    643063
+											                ],
+											                [
+											                    "05.21",
+											                    651959
+											                ],
+											                [
+											                    "05.22",
+											                    664052
+											                ],
+											                [
+											                    "05.23",
+											                    715480
+											                ],
+											                [
+											                    "05.24",
+											                    728797
+											                ],
+											                [
+											                    "05.25",
+											                    733585
+											                ],
+											                [
+											                    "05.26",
+											                    746553
+											                ],
+											                [
+											                    "05.27",
+											                    761852
+											                ],
+											                [
+											                    "05.28",
+											                    772013
+											                ],
+											                [
+											                    "05.29",
+											                    792596
+											                ],
+											                [
+											                    "05.30",
+											                    801452
+											                ],
+											                [
+											                    "05.31",
+											                    817121
+											                ],
+											                [
+											                    "06.01",
+											                    881750
+											                ],
+											                [
+											                    "06.02",
+											                    897299
+											                ],
+											                [
+											                    "06.03",
+											                    927857
+											                ],
+											                [
+											                    "06.04",
+											                    970553
+											                ],
+											                [
+											                    "06.05",
+											                    994135
+											                ],
+											                [
+											                    "06.06",
+											                    1020529
+											                ],
+											                [
+											                    "06.07",
+											                    1033578
+											                ],
+											                [
+											                    "06.08",
+											                    1043591
+											                ],
+											                [
+											                    "06.09",
+											                    1055363
+											                ],
+											                [
+											                    "06.10",
+											                    1070745
+											                ],
+											                [
+											                    "06.11",
+											                    1090377
+											                ],
+											                [
+											                    "06.12",
+											                    1097969
+											                ],
+											                [
+											                    "06.13",
+											                    1123817
+											                ],
+											                [
+											                    "06.14",
+											                    1141795
+											                ],
+											                [
+											                    "06.15",
+											                    1151933
+											                ],
+											                [
+											                    "06.16",
+											                    1171749
+											                ],
+											                [
+											                    "06.17",
+											                    1184924
+											                ]
+											            ],
+											            "hoverAnimation": true,
+											            "label": {
+											                "show": true,
+											                "position": "top",
+											                "margin": 8
+											            },
+											            "lineStyle": {
+											                "show": true,
+											                "width": 1,
+											                "opacity": 1,
+											                "curveness": 0,
+											                "type": "solid"
+											            },
+											            "areaStyle": {
+											                "opacity": 0
+											            },
+											            "zlevel": 0,
+											            "z": 0
+											        }
+											    ],
+											    "legend": [
+											        {
+											            "data": [
+											                "\u7d2f\u8ba1\u786e\u8bca",
+											                "\u7d2f\u8ba1\u6cbb\u6108"
+											            ],
+											            "selected": {
+											                "\u7d2f\u8ba1\u786e\u8bca": true,
+											                "\u7d2f\u8ba1\u6cbb\u6108": true
+											            }
+											        }
+											    ],
+											    "tooltip": {
+											        "show": true,
+											        "trigger": "item",
+											        "triggerOn": "mousemove|click",
+											        "axisPointer": {
+											            "type": "line"
+											        },
+											        "textStyle": {
+											            "fontSize": 14
+											        },
+											        "borderWidth": 0
+											    },
+											    "xAxis": [
+											        {
+											            "show": true,
+											            "scale": false,
+											            "nameLocation": "end",
+											            "nameGap": 15,
+											            "gridIndex": 0,
+											            "inverse": false,
+											            "offset": 0,
+											            "splitNumber": 5,
+											            "minInterval": 0,
+											            "splitLine": {
+											                "show": false,
+											                "lineStyle": {
+											                    "show": true,
+											                    "width": 1,
+											                    "opacity": 1,
+											                    "curveness": 0,
+											                    "type": "solid"
+											                }
+											            },
+											            "data": [
+											                "01.28",
+											                "01.29",
+											                "01.30",
+											                "01.31",
+											                "02.01",
+											                "02.02",
+											                "02.03",
+											                "02.04",
+											                "02.05",
+											                "02.06",
+											                "02.07",
+											                "02.08",
+											                "02.09",
+											                "02.10",
+											                "02.11",
+											                "02.12",
+											                "02.13",
+											                "02.14",
+											                "02.15",
+											                "02.16",
+											                "02.17",
+											                "02.18",
+											                "02.19",
+											                "02.20",
+											                "02.21",
+											                "02.22",
+											                "02.23",
+											                "02.24",
+											                "02.25",
+											                "02.26",
+											                "02.27",
+											                "02.28",
+											                "02.29",
+											                "03.01",
+											                "03.02",
+											                "03.03",
+											                "03.04",
+											                "03.05",
+											                "03.06",
+											                "03.07",
+											                "03.08",
+											                "03.09",
+											                "03.10",
+											                "03.11",
+											                "03.12",
+											                "03.13",
+											                "03.14",
+											                "03.15",
+											                "03.16",
+											                "03.17",
+											                "03.18",
+											                "03.19",
+											                "03.20",
+											                "03.21",
+											                "03.22",
+											                "03.23",
+											                "03.24",
+											                "03.25",
+											                "03.26",
+											                "03.27",
+											                "03.28",
+											                "03.29",
+											                "03.30",
+											                "03.31",
+											                "04.02",
+											                "04.03",
+											                "04.05",
+											                "04.13",
+											                "04.14",
+											                "04.15",
+											                "04.16",
+											                "04.17",
+											                "04.18",
+											                "04.19",
+											                "04.20",
+											                "04.21",
+											                "04.22",
+											                "04.23",
+											                "04.24",
+											                "04.25",
+											                "04.26",
+											                "04.27",
+											                "04.28",
+											                "04.29",
+											                "04.30",
+											                "05.01",
+											                "05.02",
+											                "05.03",
+											                "05.04",
+											                "05.05",
+											                "05.06",
+											                "05.07",
+											                "05.08",
+											                "05.09",
+											                "05.10",
+											                "05.11",
+											                "05.12",
+											                "05.13",
+											                "05.14",
+											                "05.15",
+											                "05.16",
+											                "05.17",
+											                "05.18",
+											                "05.19",
+											                "05.20",
+											                "05.21",
+											                "05.22",
+											                "05.23",
+											                "05.24",
+											                "05.25",
+											                "05.26",
+											                "05.27",
+											                "05.28",
+											                "05.29",
+											                "05.30",
+											                "05.31",
+											                "06.01",
+											                "06.02",
+											                "06.03",
+											                "06.04",
+											                "06.05",
+											                "06.06",
+											                "06.07",
+											                "06.08",
+											                "06.09",
+											                "06.10",
+											                "06.11",
+											                "06.12",
+											                "06.13",
+											                "06.14",
+											                "06.15",
+											                "06.16",
+											                "06.17"
+											            ]
+											        }
+											    ],
+											    "yAxis": [
+											        {
+											            "show": true,
+											            "scale": false,
+											            "nameLocation": "end",
+											            "nameGap": 15,
+											            "gridIndex": 0,
+											            "inverse": false,
+											            "offset": 0,
+											            "splitNumber": 5,
+											            "minInterval": 0,
+											            "splitLine": {
+											                "show": false,
+											                "lineStyle": {
+											                    "show": true,
+											                    "width": 1,
+											                    "opacity": 1,
+											                    "curveness": 0,
+											                    "type": "solid"
+											                }
+											            }
+											        }
+											    ]
+											};
+											        chart_0b1573fcff72404e8ad27568759e0ec5.setOption(option_0b1573fcff72404e8ad27568759e0ec5);
+											    </script>
+										</div>
+									</body>
+									<body>
+										<div class="dt_style">
+											<div id="d1b71635f281450c956327ab2aea815b" class="chart-container" style="width:800px; height:500px;"></div>
+											    <script>
+											        var chart_d1b71635f281450c956327ab2aea815b = echarts.init(
+											            document.getElementById('d1b71635f281450c956327ab2aea815b'), 'white', {renderer: 'canvas'});
+											        var option_d1b71635f281450c956327ab2aea815b = {
+											    "animation": true,
+											    "animationThreshold": 2000,
+											    "animationDuration": 1000,
+											    "animationEasing": "cubicOut",
+											    "animationDelay": 0,
+											    "animationDurationUpdate": 300,
+											    "animationEasingUpdate": "cubicOut",
+											    "animationDelayUpdate": 0,
+											    "color": [
+											        "#c23531",
+											        "#2f4554",
+											        "#61a0a8",
+											        "#d48265",
+											        "#749f83",
+											        "#ca8622",
+											        "#bda29a",
+											        "#6e7074",
+											        "#546570",
+											        "#c4ccd3",
+											        "#f05b72",
+											        "#ef5b9c",
+											        "#f47920",
+											        "#905a3d",
+											        "#fab27b",
+											        "#2a5caa",
+											        "#444693",
+											        "#726930",
+											        "#b2d235",
+											        "#6d8346",
+											        "#ac6767",
+											        "#1d953f",
+											        "#6950a1",
+											        "#918597"
+											    ],
+											    "series": [
+											        {
+											            "type": "bar",
+											            "name": "\u7d2f\u8ba1\u786e\u8bca",
+											            "data": [
+											                21754,
+											                17110,
+											                10667,
+											                8248,
+											                5143,
+											                4604,
+											                4507,
+											                4443,
+											                4147,
+											                3495
+											            ],
+											            "barCategoryGap": "20%",
+											            "label": {
+											                "show": true,
+											                "position": "top",
+											                "margin": 8
+											            }
+											        }
+											    ],
+											    "legend": [
+											        {
+											            "data": [
+											                "\u7d2f\u8ba1\u786e\u8bca"
+											            ],
+											            "selected": {
+											                "\u7d2f\u8ba1\u786e\u8bca": true
+											            }
+											        }
+											    ],
+											    "tooltip": {
+											        "show": true,
+											        "trigger": "item",
+											        "triggerOn": "mousemove|click",
+											        "axisPointer": {
+											            "type": "line"
+											        },
+											        "textStyle": {
+											            "fontSize": 14
+											        },
+											        "borderWidth": 0
+											    },
+											    "xAxis": [
+											        {
+											            "show": true,
+											            "scale": false,
+											            "nameLocation": "end",
+											            "nameGap": 15,
+											            "gridIndex": 0,
+											            "inverse": false,
+											            "offset": 0,
+											            "splitNumber": 5,
+											            "minInterval": 0,
+											            "splitLine": {
+											                "show": false,
+											                "lineStyle": {
+											                    "show": true,
+											                    "width": 1,
+											                    "opacity": 1,
+											                    "curveness": 0,
+											                    "type": "solid"
+											                }
+											            },
+											            "data": [
+											                "\u7f8e\u56fd",
+											                "\u5df4\u897f",
+											                "\u5370\u5ea6",
+											                "\u4fc4\u7f57\u65af",
+											                "\u667a\u5229",
+											                "\u79d8\u9c81",
+											                "\u6c99\u7279\u963f\u62c9\u4f2f",
+											                "\u5df4\u57fa\u65af\u5766",
+											                "\u58a8\u897f\u54e5",
+											                "\u5357\u975e"
+											            ]
+											        }
+											    ],
+											    "yAxis": [
+											        {
+											            "show": true,
+											            "scale": false,
+											            "nameLocation": "end",
+											            "nameGap": 15,
+											            "gridIndex": 0,
+											            "inverse": false,
+											            "offset": 0,
+											            "splitNumber": 5,
+											            "minInterval": 0,
+											            "splitLine": {
+											                "show": false,
+											                "lineStyle": {
+											                    "show": true,
+											                    "width": 1,
+											                    "opacity": 1,
+											                    "curveness": 0,
+											                    "type": "solid"
+											                }
+											            }
+											        }
+											    ]
+											};
+											        chart_d1b71635f281450c956327ab2aea815b.setOption(option_d1b71635f281450c956327ab2aea815b);
+											
+											</script>
+										</div>
+									</body>
+								</div>
+							</div>
+							<div>
+								<!-- <iframe src="home_sort.html" style="width: 100%; height: 1400px;"></iframe> -->
+								<iframe name="iframename" src="ab_sort.html" 
+									id="home" onload="SetWinHeight(this)" 
+									frameborder="0" scrolling="no" 
+									style="width: 100%; border: 0rem; overflow: hidden;">
+								</iframe>
+							</div>
+							<div class="sec1">
+								<p> ——疫情就是命令，防控就是责任——</p>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./js/data_spec.js"></script>
+	</body>
+</html>
